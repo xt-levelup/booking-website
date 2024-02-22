@@ -1,0 +1,112 @@
+@media (min-width: 1400px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        font-size: 12px;
+        margin-bottom: 3em;
+    }
+    h3 {
+        color: rgb(156, 153, 153);
+    }
+    .transactions {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        display: grid;
+        grid-template-columns: 36px 200px 200px 200px 100px 150px 1fr 100px 1fr;
+        gap: 3px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(184, 181, 181);
+        border-radius: 6px;
+        padding: 0 1em;
+    }
+
+    .items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .status {
+        display: flex;
+
+        background-color: rgb(241, 164, 241);
+        padding: 3px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        color: rgb(35, 88, 35);
+    }
+    .items span {
+        margin-top: -3px;
+    }
+    .small {
+        display: none;
+    }
+}
+
+@media (max-width: 1399px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        font-size: 12px;
+        margin-bottom: 3em;
+    }
+    h3 {
+        color: rgb(156, 153, 153);
+    }
+    .transactions {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        display: none;
+        /* display: grid;
+        grid-template-columns: 36px 200px 200px 200px 100px 150px 1fr 100px 1fr;
+        gap: 3px; */
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(184, 181, 181);
+        border-radius: 6px;
+        padding: 0 1em;
+    }
+
+    .items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .items span {
+        margin-top: -3px;
+    }
+    .large {
+        display: none;
+    }
+    .small {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .small ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        /* list-style: none; */
+        margin-left: -2em;
+    }
+    .li {
+        border: 1px solid rgb(186, 187, 186);
+        border-radius: 6px;
+        padding: 1em;
+    }
+    .li li {
+        margin-left: 1em;
+    }
+}

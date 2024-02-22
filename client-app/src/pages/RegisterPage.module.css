@@ -1,0 +1,47 @@
+.contain {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+.contain h2 {
+    margin-top: 3em;
+}
+.form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* border: 1px solid green; */
+    gap: 6px;
+}
+.form button {
+    margin-top: 1em;
+    height: 36px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: rgb(60, 42, 142);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.inform {
+    display: flex;
+    flex-direction: column;
+}
+.inform input {
+    box-sizing: border-box;
+    width: 100%;
+}
+.button2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button2 button {
+    cursor: pointer;
+}

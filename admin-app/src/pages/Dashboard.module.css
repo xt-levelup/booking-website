@@ -1,0 +1,194 @@
+@media (min-width: 1300px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+        padding: 1em;
+    }
+    .top-item {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px;
+    }
+    .top-item h4 {
+        margin: 0;
+    }
+    .top-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .user-icon {
+        background-color: orange;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .order-icon {
+        background-color: yellow;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .earning-icon {
+        background-color: rgb(11, 170, 11);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .balance-icon {
+        background-color: rgb(243, 181, 243);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .list {
+        margin: 0 auto;
+        padding: 1em;
+        font-size: 12px;
+    }
+
+    .list-items {
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 2em;
+    }
+
+    .small-details {
+        display: none;
+    }
+
+    .list-head {
+        display: grid;
+        grid-template-columns: 39px 180px 150px 200px 80px 150px 1fr 80px 1fr;
+        border: 1px solid rgb(197, 193, 193);
+        border-radius: 6px;
+        padding: 6px;
+    }
+
+    .caption {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px;
+    }
+    .caption-content {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 3px;
+        padding: 3px;
+    }
+    .caption span {
+        color: rgb(199, 191, 191);
+    }
+}
+@media (max-width: 1299px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        padding: 1em;
+    }
+    .top-item {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px;
+    }
+    .top-item h4 {
+        margin: 0;
+    }
+    .top-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .user-icon {
+        background-color: orange;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .order-icon {
+        background-color: yellow;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .earning-icon {
+        background-color: rgb(11, 170, 11);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+    .balance-icon {
+        background-color: rgb(243, 181, 243);
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+    }
+
+    .list {
+        margin: 0 auto;
+        padding: 1em;
+        font-size: 12px;
+    }
+
+    .list-items {
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 2em;
+    }
+
+    .large-details {
+        display: none;
+    }
+    .small-details ul {
+        font-size: 15px;
+    }
+    .list-head {
+        display: grid;
+        grid-template-columns: 39px 180px 150px 200px 80px 150px 1fr 80px 1fr;
+        border: 1px solid rgb(197, 193, 193);
+        border-radius: 6px;
+        padding: 6px;
+    }
+    .caption {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px;
+    }
+    .caption span {
+        color: rgb(199, 191, 191);
+    }
+}

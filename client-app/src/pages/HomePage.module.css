@@ -1,0 +1,612 @@
+@media (min-width: 900px) {
+    .global {
+        width: 100%;
+        background-color: rgb(60, 42, 142);
+    }
+    .contain {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        box-sizing: border-box;
+
+        padding: 2%;
+        color: white;
+        /* border: 1px solid red; */
+    }
+    .adverse {
+    }
+    .adverse h2 {
+        margin: 1em 0;
+        font-size: 30px;
+    }
+    .adverse p {
+        margin-bottom: 1em;
+    }
+    .adverse button {
+        margin: 1em 0 3em;
+        height: 36px;
+        background-color: rgb(91, 91, 240);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.199);
+    }
+    .details {
+        position: absolute;
+        background-color: white;
+        border: 2px solid gold;
+        display: flex;
+        color: rgb(61, 60, 60);
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 0 3em;
+        border-radius: 6px;
+        box-sizing: border-box;
+        transform: translate(-50%, 50%);
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        width: 100%;
+    }
+    .details input {
+        width: 21px;
+        height: 24px;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+    }
+    .details button {
+        height: 48px;
+        background-color: rgb(91, 91, 240);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.199);
+    }
+    .calendar {
+        display: flex;
+        gap: 6px;
+    }
+    .calendar span {
+        margin: 0 3px;
+    }
+    .calendar select {
+        border: none;
+        appearance: none;
+        width: 157px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .order {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .order span {
+        margin-left: 3px;
+    }
+    .order input {
+        font-size: 15px;
+        color: rgb(61, 60, 60);
+    }
+    .dateSelection {
+        /* position: absolute; */
+        /* border: 1px solid green; */
+        border-radius: 3px;
+        /* transform: translate(-50%, -50%);
+        top: 180%;
+        left: 50%; */
+    }
+    .dateSelection input {
+        text-align: center;
+        width: 80px;
+        font-size: 15px;
+        color: rgb(61, 60, 60);
+        border: none;
+    }
+    .content {
+        max-width: 1200px;
+        margin: 4em auto 0;
+        /* border: 1px solid blue; */
+    }
+    .cities {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px solid green; */
+        gap: 1em;
+        padding: 0 1%;
+    }
+    .cities-items {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        height: 300px;
+        /* width: 300px; */
+        border-radius: 12px;
+        /* border: 1px solid green; */
+        padding: 1em;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    .cities-items p {
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .booking-types {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+        gap: 6px;
+        padding: 0 1%;
+
+        /* border: 1px solid green; */
+    }
+    .booking-type-details {
+        /* border: 1px solid yellow; */
+
+        height: 240px;
+    }
+    .booking-types img {
+        object-fit: fill;
+        width: 100%;
+        height: 80%;
+        border-radius: 6px;
+    }
+    .guests-love {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px solid blue; */
+        margin-top: 1em;
+        gap: 1%;
+        padding: 0 1%;
+    }
+    .guests-love-details {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        height: 300px;
+        /* border: 1px solid green; */
+    }
+    .guests-love img {
+        object-fit: fill;
+        width: 100%;
+        height: 70%;
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 899px) {
+    .contain {
+        position: relative;
+        box-sizing: border-box;
+        background-color: rgb(60, 42, 142);
+        padding: 2%;
+        color: white;
+        /* border: 1px solid green; */
+    }
+    .adverse {
+    }
+    .adverse h2 {
+        margin: 1em 0;
+        font-size: 30px;
+    }
+    .adverse p {
+        margin-bottom: 1em;
+    }
+    .adverse button {
+        margin: 1em 0 3em;
+        height: 36px;
+        background-color: rgb(91, 91, 240);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.199);
+    }
+    .details {
+        position: absolute;
+        background-color: white;
+        border: 2px solid gold;
+        display: flex;
+        /* margin: 0 1em 0 1em; */
+        flex-direction: column;
+        color: rgb(61, 60, 60);
+        justify-content: space-between;
+        border-radius: 6px;
+        box-sizing: border-box;
+        transform: translate(-50%, 100%);
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        width: 100%;
+    }
+    .details input {
+        width: 21px;
+        height: 24px;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+    }
+    .details button {
+        height: 48px;
+        background-color: rgb(91, 91, 240);
+        color: white;
+        border: none;
+
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.199);
+    }
+    .calendar {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        border: 1px solid gold;
+        padding: 0 1em;
+        height: 3em;
+    }
+    .calendar span {
+        margin: 0 3px;
+    }
+    .calendar select {
+        border: none;
+        appearance: none;
+        width: 157px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .order {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 6px;
+        border: 1px solid gold;
+        padding: 0 1em;
+        height: 3em;
+    }
+    .order span {
+        margin-left: 3px;
+    }
+    .order input {
+        font-size: 15px;
+        color: rgb(61, 60, 60);
+    }
+    .dateSelection {
+        /* position: absolute; */
+        /* border: 1px solid green; */
+        border-radius: 3px;
+        /* transform: translate(-50%, -50%);
+        top: 180%;
+        left: 50%; */
+    }
+    .dateSelection input {
+        text-align: center;
+        width: 80px;
+        font-size: 15px;
+        color: rgb(61, 60, 60);
+        border: none;
+    }
+    .content {
+        max-width: 1200px;
+        margin: 14em auto 0;
+        /* border: 1px solid blue; */
+    }
+    .cities {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px solid green; */
+        gap: 6px;
+        padding: 0 1%;
+    }
+    .cities-items {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        height: 240px;
+        /* width: 300px; */
+        border-radius: 12px;
+        /* border: 1px solid green; */
+        padding: 1em;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    .cities-items p {
+        font-weight: bold;
+        font-size: 21px;
+    }
+    .booking-types {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+        gap: 6px;
+        padding: 0 1%;
+
+        /* border: 1px solid green; */
+    }
+    .booking-type-details {
+        /* border: 1px solid yellow; */
+
+        height: 210px;
+    }
+    .booking-types img {
+        object-fit: fill;
+        width: 100%;
+        height: 60%;
+        border-radius: 6px;
+    }
+    .booking-types img {
+        object-fit: fill;
+        width: 100%;
+        height: 80%;
+        border-radius: 6px;
+    }
+    .guests-love {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* border: 1px solid blue; */
+        margin-top: 1em;
+        gap: 1%;
+        padding: 0 1%;
+    }
+    .guests-love-details {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        height: 300px;
+        /* border: 1px solid green; */
+    }
+    .guests-love-details p {
+        font-size: 14px;
+    }
+    .guests-love img {
+        object-fit: fill;
+        width: 100%;
+        height: 70%;
+        border-radius: 6px;
+    }
+    .register {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(60, 42, 142);
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 3em 0;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        padding: 3em 0;
+    }
+    .form h2 {
+        font-size: 30px;
+    }
+    .form form {
+        display: flex;
+        gap: 1em;
+    }
+    .form form input {
+        height: 36px;
+        width: 270px;
+        border-radius: 6px;
+        border: none;
+        padding: 0 6px;
+    }
+    .form form button {
+        height: 36px;
+        width: 72px;
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(107, 107, 199);
+        color: white;
+        cursor: pointer;
+    }
+    .form form button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+    }
+}
+@media (max-width: 650px) {
+    .contain {
+        position: relative;
+        box-sizing: border-box;
+        background-color: rgb(60, 42, 142);
+        padding: 2%;
+        color: white;
+        /* border: 1px solid green; */
+    }
+    .adverse {
+    }
+    .adverse h2 {
+        margin: 1em 0;
+        font-size: 30px;
+    }
+    .adverse p {
+        margin-bottom: 1em;
+    }
+    .adverse button {
+        margin: 1em 0 3em;
+        height: 36px;
+        background-color: rgb(91, 91, 240);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.199);
+    }
+    .details {
+        position: absolute;
+        background-color: white;
+        border: 2px solid gold;
+        display: flex;
+        /* margin: 0 1em 0 1em; */
+        flex-direction: column;
+        color: rgb(61, 60, 60);
+        justify-content: space-between;
+        border-radius: 6px;
+        box-sizing: border-box;
+        transform: translate(-50%, 100%);
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        width: 100%;
+    }
+    .details input {
+        width: 21px;
+        height: 24px;
+        font-size: 18px;
+        text-align: center;
+        border: none;
+    }
+    .details button {
+        height: 48px;
+        background-color: rgb(91, 91, 240);
+        color: white;
+        border: none;
+
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.199);
+    }
+    .calendar {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        border: 1px solid gold;
+        padding: 0 1em;
+        height: 3em;
+    }
+    .calendar span {
+        margin: 0 3px;
+    }
+    .calendar select {
+        border: none;
+        appearance: none;
+        width: 157px;
+        text-align: center;
+    }
+    .order {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 6px;
+        border: 1px solid gold;
+        padding: 0 1em;
+        height: 3em;
+    }
+    .order span {
+        margin-left: 3px;
+    }
+    .order input {
+        font-size: 15px;
+        color: rgb(61, 60, 60);
+    }
+    .dateSelection {
+        /* position: absolute; */
+        /* border: 1px solid green; */
+        border-radius: 3px;
+        /* transform: translate(-50%, -50%);
+        top: 180%;
+        left: 50%; */
+    }
+    .dateSelection input {
+        text-align: center;
+        width: 80px;
+        font-size: 15px;
+        color: rgb(61, 60, 60);
+        border: none;
+    }
+    .content {
+        max-width: 1200px;
+        margin: 14em auto 0;
+        /* border: 1px solid blue; */
+    }
+    .cities {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding: 6px;
+    }
+    .cities-items {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        height: 180px;
+        /* width: 300px; */
+        border-radius: 12px;
+        /* border: 1px solid green; */
+        padding: 1em;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+    .cities-items h2 {
+        font-size: 21px;
+    }
+    .cities-items p {
+        /* font-weight: bold; */
+        font-size: 21px;
+    }
+    .booking-types {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1%;
+        gap: 6px;
+
+        /* border: 1px solid green; */
+    }
+
+    .booking-type-details {
+        /* border: 1px solid yellow; */
+        height: 180px;
+    }
+    .booking-type-details h3 {
+        font-size: 18px;
+    }
+    .booking-type-details p {
+        font-size: 14px;
+    }
+    .booking-types img {
+        object-fit: fill;
+        width: 100%;
+        height: 60%;
+        border-radius: 6px;
+    }
+    .guests-love {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid blue; */
+        margin-top: 1em;
+        gap: 1%;
+        padding: 0 1%;
+    }
+    .guests-love-details {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        height: 350px;
+        /* border: 1px solid green; */
+    }
+    .guests-love-details p {
+        font-size: 14px;
+    }
+    .guests-love img {
+        object-fit: fill;
+        width: 100%;
+        height: 70%;
+        border-radius: 6px;
+    }
+}

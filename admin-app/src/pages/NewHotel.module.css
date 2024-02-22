@@ -1,0 +1,365 @@
+@media (min-width: 860px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+    .title {
+        box-sizing: border-box;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px 1em;
+    }
+    .title h3 {
+        color: rgb(146, 143, 143);
+    }
+
+    .details {
+        box-sizing: border-box;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px 1em;
+    }
+
+    .details-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .hotel-inform {
+        display: flex;
+        /* border: 1px solid blue; */
+        padding: 0 2em;
+        /* justify-content: space-between; */
+    }
+    .hotel-inform-left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 1em;
+        /* border: 1px solid green; */
+    }
+    .hotel-inform-right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 1em;
+        /* border: 1px solid green; */
+        align-items: flex-end;
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        /* gap: 0; */
+    }
+    .input input {
+        height: 30px;
+        border: 1px solid rgb(161, 159, 159);
+        border-radius: 3px;
+        margin-top: -6px;
+        padding: 0 1em;
+    }
+    .input select {
+        width: 51px;
+        height: 42px;
+        padding: 3px;
+        border-radius: 3px;
+        border: 1px solid rgb(161, 159, 159);
+    }
+    .input textarea {
+        height: 100px;
+        overflow: auto;
+    }
+    .input p {
+        font-weight: bold;
+    }
+    .rooms {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+    .rooms p {
+        font-weight: bold;
+    }
+    .rooms-detail {
+        display: grid;
+        grid-template-columns: 240px 1fr;
+        padding: 0 1em;
+        gap: 3em;
+        align-items: center;
+        /* border: 1px solid blue; */
+        margin: 3px 0;
+    }
+    .rooms-detail select {
+        width: 60px;
+        height: 30px;
+        border: 1px solid green;
+        border-radius: 3px;
+        padding: 3px;
+    }
+    .button {
+        display: flex;
+        padding: 2em;
+    }
+    .button button {
+        width: 99px;
+        height: 42px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgb(26, 121, 175);
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    }
+    .button button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 1px solid rgb(16, 204, 16);
+    }
+}
+
+@media (max-width: 859px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+    .title {
+        box-sizing: border-box;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px 1em;
+    }
+    .title h3 {
+        color: rgb(146, 143, 143);
+    }
+
+    .details {
+        box-sizing: border-box;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px 1em;
+    }
+
+    .details-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .hotel-inform {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid blue; */
+        padding: 0 2em;
+        /* justify-content: space-between; */
+    }
+    .hotel-inform-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* gap: 1em; */
+        /* border: 1px solid green; */
+    }
+    .hotel-inform-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        /* border: 1px solid green; */
+        /* align-items: flex-end; */
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .input input {
+        height: 30px;
+        border: 1px solid rgb(161, 159, 159);
+        border-radius: 3px;
+        margin-top: -6px;
+    }
+    .input select {
+        width: 51px;
+        height: 42px;
+        padding: 3px;
+        border-radius: 3px;
+        border: 1px solid rgb(161, 159, 159);
+    }
+    .input textarea {
+        height: 100px;
+        overflow: auto;
+    }
+    .input p {
+        font-weight: bold;
+    }
+    .rooms {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+    .rooms p {
+        font-weight: bold;
+    }
+    .rooms-detail {
+        display: grid;
+        grid-template-columns: 240px 1fr;
+        padding: 0 1em;
+        gap: 3em;
+        align-items: center;
+        /* border: 1px solid blue; */
+        margin: 3px 0;
+    }
+    .rooms-detail select {
+        width: 60px;
+        height: 30px;
+        border: 1px solid green;
+        border-radius: 3px;
+        padding: 3px;
+    }
+    .button {
+        display: flex;
+        padding: 2em;
+    }
+    .button button {
+        width: 99px;
+        height: 42px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgb(26, 121, 175);
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    }
+    .button button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 1px solid rgb(16, 204, 16);
+    }
+}
+@media (max-width: 599px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        gap: 1em;
+        margin-bottom: 3em;
+    }
+    .title {
+        box-sizing: border-box;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px 1em;
+    }
+    .title h3 {
+        color: rgb(146, 143, 143);
+    }
+
+    .details {
+        box-sizing: border-box;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+        border-radius: 6px;
+        padding: 6px 1em;
+    }
+
+    .details-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .hotel-inform {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid blue; */
+        padding: 0 2em;
+        /* justify-content: space-between; */
+    }
+    .hotel-inform-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* gap: 1em; */
+        /* border: 1px solid green; */
+    }
+    .hotel-inform-right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        /* border: 1px solid green; */
+        /* align-items: flex-end; */
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .input input {
+        height: 30px;
+        border: 1px solid rgb(161, 159, 159);
+        border-radius: 3px;
+        margin-top: -6px;
+    }
+    .input select {
+        width: 51px;
+        height: 42px;
+        padding: 3px;
+        border-radius: 3px;
+        border: 1px solid rgb(161, 159, 159);
+    }
+    .input textarea {
+        height: 100px;
+        overflow: auto;
+    }
+    .input p {
+        font-weight: bold;
+    }
+    .rooms {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+    .rooms p {
+        font-weight: bold;
+    }
+    .rooms span {
+        font-size: 15px;
+    }
+    .rooms-detail {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        padding: 0 1em;
+        gap: 3em;
+        align-items: center;
+        /* border: 1px solid blue; */
+        margin: 3px 0;
+    }
+    .rooms-detail select {
+        width: 60px;
+        height: 30px;
+        border: 1px solid green;
+        border-radius: 3px;
+        padding: 3px;
+    }
+    .button {
+        display: flex;
+        padding: 2em;
+    }
+    .button button {
+        width: 99px;
+        height: 42px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgb(26, 121, 175);
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    }
+    .button button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 1px solid rgb(16, 204, 16);
+    }
+}

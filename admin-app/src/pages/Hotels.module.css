@@ -1,0 +1,433 @@
+@media (min-width: 1000px) {
+    .contain {
+        padding: 1em;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header h4 {
+        font-size: 18px;
+    }
+
+    .header button {
+        height: 42px;
+        border-radius: 3px;
+        border: 2px solid green;
+        background-color: none;
+        color: rgb(50, 172, 50);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .list-contain {
+        border: 1px solid rgb(182, 179, 179);
+        border-radius: 6px;
+        padding: 6px;
+        font-size: 12px;
+    }
+    .list-details {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 39px 200px 200px 1fr 200px 1fr 1fr;
+        /* gap: 3px; */
+    }
+    .items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid green; */
+        padding: 3px;
+    }
+    .buttons {
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 12px;
+        align-items: center;
+        /* border: 1px solid green; */
+        padding: 3px;
+    }
+    .buttons button {
+        height: 36px;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    }
+    .buttons button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        background-color: rgb(206, 206, 250);
+        color: green;
+    }
+    .items span {
+        color: rgb(182, 179, 179);
+    }
+    .items input {
+        width: 16px;
+        height: 16px;
+        /* align-self: center; */
+        margin-top: 6px;
+    }
+
+    .small {
+        display: none;
+    }
+    .ul {
+        display: flex;
+        border: 1px solid rgb(173, 170, 170);
+        border-radius: 6px;
+        gap: 2em;
+    }
+    .ul li {
+        width: 70%;
+    }
+    .ul-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid yellow; */
+        width: 30%;
+    }
+    .ul-button button {
+        width: 60px;
+        height: 42px;
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(235, 98, 98);
+        color: white;
+        cursor: pointer;
+    }
+    .ul-button button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 2px solid rgb(10, 235, 10);
+    }
+    .delete-confirm {
+        position: fixed;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.192);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .delete-confirm-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        background-color: rgb(0, 247, 255);
+        border-radius: 6px;
+        margin-bottom: 6em;
+    }
+    .delete-confirm-details p {
+        font-size: 18px;
+    }
+    .delete-confirm-details div {
+        display: flex;
+        gap: 2em;
+    }
+    .delete-confirm-details button {
+        width: 72px;
+        height: 36px;
+        border-radius: 6px;
+        border: none;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .delete-confirm-details button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 2px solid green;
+    }
+}
+@media (max-width: 999px) {
+    .contain {
+        padding: 1em;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header h4 {
+        font-size: 18px;
+    }
+
+    .header button {
+        height: 42px;
+        border-radius: 3px;
+        border: 2px solid green;
+        background-color: none;
+        color: rgb(50, 172, 50);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .list-contain {
+        border: 1px solid rgb(182, 179, 179);
+        border-radius: 6px;
+        padding: 6px;
+        font-size: 12px;
+        display: none;
+    }
+    .list-details {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 39px 200px 200px 1fr 200px 1fr 1fr;
+        /* gap: 3px; */
+    }
+    .items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid green; */
+        padding: 3px;
+    }
+    .items button {
+        height: 36px;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    }
+    .items span {
+        color: rgb(182, 179, 179);
+    }
+    .items input {
+        width: 16px;
+        height: 16px;
+        /* align-self: center; */
+        margin-top: 6px;
+    }
+    .ul {
+        display: flex;
+        border: 1px solid rgb(173, 170, 170);
+        border-radius: 6px;
+        gap: 2em;
+    }
+    .ul li {
+        width: 70%;
+    }
+    .ul-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid yellow; */
+        width: 30%;
+        gap: 6px;
+    }
+    .ul-button button {
+        width: 60px;
+        height: 42px;
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(235, 98, 98);
+        color: white;
+        cursor: pointer;
+    }
+    .ul-button button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 2px solid rgb(10, 235, 10);
+    }
+    .delete-confirm {
+        position: fixed;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.192);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .delete-confirm-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        background-color: rgb(0, 247, 255);
+        border-radius: 6px;
+        margin-bottom: 6em;
+    }
+    .delete-confirm-details p {
+        font-size: 18px;
+    }
+    .delete-confirm-details div {
+        display: flex;
+        gap: 2em;
+    }
+    .delete-confirm-details button {
+        width: 72px;
+        height: 36px;
+        border-radius: 6px;
+        border: none;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .delete-confirm-details button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 2px solid green;
+    }
+}
+@media (max-width: 600px) {
+    .contain {
+        padding: 1em;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header h4 {
+        font-size: 18px;
+    }
+
+    .header button {
+        height: 42px;
+        border-radius: 3px;
+        border: 2px solid green;
+        background-color: none;
+        color: rgb(50, 172, 50);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .list-contain {
+        border: 1px solid rgb(182, 179, 179);
+        border-radius: 6px;
+        padding: 6px;
+        font-size: 12px;
+        display: none;
+    }
+    .list-details {
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 39px 200px 200px 1fr 200px 1fr 1fr;
+        /* gap: 3px; */
+    }
+    .items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid green; */
+        padding: 3px;
+    }
+    .items button {
+        height: 36px;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    }
+    .items span {
+        color: rgb(182, 179, 179);
+    }
+    .items input {
+        width: 16px;
+        height: 16px;
+        /* align-self: center; */
+        margin-top: 6px;
+    }
+    .ul {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(173, 170, 170);
+        border-radius: 6px;
+        gap: 2em;
+        padding: 1em;
+    }
+    .ul li {
+        width: 100%;
+        margin: 0 1em;
+    }
+    .ul-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+    .ul-button button {
+        width: 60px;
+        height: 42px;
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(235, 98, 98);
+        color: white;
+        cursor: pointer;
+        width: 100%;
+    }
+    .ul-button button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 2px solid rgb(10, 235, 10);
+    }
+    .delete-confirm {
+        position: fixed;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.192);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .delete-confirm-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        background-color: rgb(0, 247, 255);
+        border-radius: 6px;
+        margin-bottom: 6em;
+    }
+    .delete-confirm-details p {
+        font-size: 18px;
+    }
+    .delete-confirm-details div {
+        display: flex;
+        gap: 2em;
+    }
+    .delete-confirm-details button {
+        width: 72px;
+        height: 36px;
+        border-radius: 6px;
+        border: none;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .delete-confirm-details button:hover {
+        transition: transform 0.5s;
+        transform: scale(1.1);
+        border: 2px solid green;
+    }
+}

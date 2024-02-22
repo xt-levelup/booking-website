@@ -1,0 +1,381 @@
+@media (min-width: 900px) {
+    .contain {
+        max-width: 1200px;
+        margin: 2em auto 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2%;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .address svg {
+        width: 20px;
+        height: 20px;
+    }
+    .address p {
+        font-size: 14px;
+    }
+    .image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        /* border: 1px solid blue; */
+    }
+    .image div {
+        width: 100%;
+        height: 240px;
+        /* border: 1px solid green; */
+    }
+    .image img {
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+    }
+    .description {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        align-items: center;
+        gap: 2em;
+    }
+    .desc-details {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .booking {
+        box-sizing: border-box;
+        background-color: rgb(204, 204, 238);
+        height: 100%;
+        width: 100%;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1em;
+        justify-content: space-between;
+    }
+    .booking button {
+        height: 42px;
+        background-color: rgb(64, 64, 240);
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.205);
+        cursor: pointer;
+    }
+    .price {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .price span {
+        font-size: 24px;
+    }
+    .inform {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        width: 450px;
+        /* border: 1px solid blue; */
+        /* margin: 1em auto 0; */
+        margin-top: 1em;
+        padding: 2%;
+    }
+
+    .date-contain {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* border: 1px solid blue; */
+        width: 100%;
+    }
+
+    .date-picker {
+        display: flex;
+        /* flex-direction: column; */
+        gap: 1em;
+        /* border: 1px solid green; */
+        /* height: 300px; */
+        width: 100%;
+        /* justify-content: flex-end; */
+        align-items: center;
+        /* align-self: flex-end; */
+    }
+
+    .date-contain input {
+        width: 100px;
+        text-align: center;
+        height: 30px;
+        font-size: 15px;
+        border: 1px solid rgb(228, 223, 223);
+        border-radius: 3px;
+    }
+    .reserve {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .reserve-inform {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .reserve-inform input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 36px;
+        margin-top: 6px;
+        border-radius: 3px;
+        border: 1px solid rgb(185, 179, 179);
+        padding: 0 1em;
+        font-size: 15px;
+    }
+    .select-rooms {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        padding: 2%;
+    }
+    .room-details {
+        margin: 1em 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+    .list-rooms {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 2em;
+        /* border: 1px solid green; */
+    }
+    .room-number-list {
+        display: flex;
+        gap: 1em;
+    }
+    .room-number {
+        display: flex;
+    }
+    .room-number-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+    .payment {
+        display: flex;
+        gap: 3em;
+        margin: 1em 0;
+    }
+    .payment select,
+    button {
+        height: 39px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .payment select {
+        width: 210px;
+        background-color: rgb(219, 215, 215);
+        padding: 3px;
+        font-size: 15px;
+    }
+    .payment button {
+        width: 150px;
+        border: none;
+        background-color: rgb(133, 133, 248);
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+@media (max-width: 899px) {
+    .contain {
+        max-width: 1200px;
+        margin: 2em auto 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2%;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .address svg {
+        width: 20px;
+        height: 20px;
+    }
+    .address p {
+        font-size: 14px;
+    }
+    .image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
+        /* border: 1px solid blue; */
+    }
+    .image div {
+        width: 100%;
+        height: 240px;
+        /* border: 1px solid green; */
+    }
+    .image img {
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+    }
+    .description {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1em;
+    }
+    .desc-details {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .booking {
+        box-sizing: border-box;
+        background-color: rgb(204, 204, 238);
+        height: 100%;
+        width: 100%;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1em;
+        align-items: center;
+        gap: 2em;
+    }
+    .booking button {
+        height: 42px;
+        background-color: rgb(64, 64, 240);
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.205);
+        cursor: pointer;
+        width: 100%;
+    }
+    .price {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .price span {
+        font-size: 24px;
+    }
+}
+@media (max-width: 599px) {
+    .contain {
+        max-width: 1200px;
+        margin: 2em auto 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2%;
+    }
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .address svg {
+        width: 20px;
+        height: 20px;
+    }
+    .address p {
+        font-size: 14px;
+    }
+    .image {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        /* border: 1px solid blue; */
+    }
+    .image div {
+        width: 100%;
+        height: 240px;
+        /* border: 1px solid green; */
+    }
+    .image img {
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+    }
+    .description {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 1em;
+    }
+    .desc-details {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .booking {
+        box-sizing: border-box;
+        background-color: rgb(204, 204, 238);
+        height: 100%;
+        width: 100%;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1em;
+        align-items: center;
+        gap: 2em;
+    }
+    .booking h2 {
+        font-size: 27px;
+    }
+    .booking button {
+        height: 42px;
+        background-color: rgb(64, 64, 240);
+        border: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 6px;
+        box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.205);
+        cursor: pointer;
+        width: 100%;
+    }
+    .price {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .price span {
+        font-size: 24px;
+    }
+}
